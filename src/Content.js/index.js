@@ -166,7 +166,7 @@ function Content() {
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".2s">
       <div class="icon">
-      <img src="assets/img/service/service-icon-1.svg" alt="" />
+      <img src="assets/img/service/4.png" alt="" />
       </div>
       <div class="content">
       <h3>Tattooing</h3>
@@ -177,7 +177,7 @@ function Content() {
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".4s">
       <div class="icon">
-      <img src="assets/img/service/service-icon-2.svg" alt="" />
+      <img src="assets/img/service/2.png" alt="" />
       </div>
       <div class="content">
       <h3>Tattoo Cover Up</h3>
@@ -188,7 +188,7 @@ function Content() {
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".6s">
       <div class="icon">
-      <img src="assets/img/service/service-icon-3.svg" alt="" />
+      <img src="assets/img/service/3.png" alt="" />
       </div>
       <div class="content">
       <h3>Tattoo Design</h3>
@@ -199,7 +199,7 @@ function Content() {
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".2s">
       <div class="icon">
-      <img src="assets/img/service/service-icon-4.svg" alt="" />
+      <img src="assets/img/service/1.png" alt="" />
       </div>
       <div class="content">
       <h3>Laser Removal</h3>
@@ -210,7 +210,7 @@ function Content() {
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".4s">
       <div class="icon">
-      <img src="assets/img/service/service-icon-5.svg" alt="" />
+      <img src="assets/img/service/6.png" alt="" />
       </div>
       <div class="content">
       <h3>Aftercare</h3>
@@ -221,7 +221,7 @@ function Content() {
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".6s">
       <div class="icon">
-      <img src="assets/img/service/service-icon-6.svg" alt="" />
+      <img src="assets/img/service/5.png" alt="" />
       </div>
       <div class="content">
       <h3>Piercing</h3>
