@@ -486,10 +486,10 @@ function Content() {
       </div>
       </section>
       <section id="map" class="map-location">
-        
+
       </section>
       
-      <footer id="footer" class="footer pt-100 pb-70">
+      <footer id="footer" class="footer pt-100 pb-70 w-100">
       <div class="footer-shape">
       <img src="assets/img/footer/footer-left.svg" alt="" class="shape shape-1" />
       <img src="assets/img/footer/footer-right.svg" alt="" class="shape shape-2" />
