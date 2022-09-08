@@ -2,11 +2,20 @@ import React from 'react';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Carousel from 'react-bootstrap/Carousel'
 
 import "./index.css"
+import Slider from './Slider.js'
+import Images from '../Components/Images.js';
 
-function Content() {
+
+
+
+
+
+
+
+
+const  Content=() =>{
   var settings = {
     dots: true,
     infinite: true,
@@ -16,6 +25,9 @@ function Content() {
     autoplay:true
       
   };
+  const ratingChanged = (newRating) => {
+    console.log(newRating)
+  }
   return (
     <div className="App">
      <div class="preloader">
@@ -35,13 +47,12 @@ function Content() {
       </div>
       </div>
       <header class="header">
-      <div class="navbar-area">
-      <div class="container">
-      <div class="row align-items-center">
+      
+      <div class="row align-items-center ">
       <div class="col-lg-12">
       <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
-      <img src="assets/img/logo/logo.svg" alt="Logo" />
+      <img src="assets/img/logo/final.png" alt="Logo" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="toggler-icon"></span>
@@ -69,14 +80,10 @@ function Content() {
       <li class="nav-item">
       <a class="page-scroll" href="#testimonial">ContactUs</a>
       </li>
-      <li class="nav-item">
-      <a class="page-scroll" href="#testimonial">Map</a>
-      </li>
+      
       </ul>
       </div>
       </nav>
-      </div>
-      </div>
       </div>
       </div>
       </header>
@@ -85,58 +92,22 @@ function Content() {
         
       
       
-      <section id="home" class="hero-section">
+      <section id="home" class="hero-section" width="100%">
+        <Slider/>
+
+        
       
-    <Carousel className='mb-5'>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="assets/img/hero/cover.jpg"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="assets/img/hero/cover.jpg"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="assets/img/hero/cover.jpg"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
     
     
         
-      <div class="hero-shape ">
-      <img src="assets/img/hero/hero-shape.svg" alt="" class="shape" />
+      <div class="hero-shape w-100 ">
+      <img src="assets/img/hero/T.png" alt="" class="shape" />
       </div>
       <div class="container">
       <div class="row align-items-center">
       <div class="col-lg-6">
       <div class="hero-content">
-      <h1 class="wow fadeInUp" data-wow-delay=".2s">Home Delivery <span>From Stores Near You</span> </h1>
+      <h1 class="wow fadeInUp" data-wow-delay=".2s">7 Devils <span>Tattoo Studio</span> </h1>
       <p class="wow fadeInUp" data-wow-delay=".4s">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
       </p>
@@ -153,7 +124,7 @@ function Content() {
       </section>
       <section id="services" class="service-section pt-150">
       <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center w-100">
       <div class="col-xl-6 col-lg-8">
       <div class="section-title text-center mb-70">
       <span class="wow fadeInUp" data-wow-delay=".2s"> Services</span>
@@ -232,12 +203,13 @@ function Content() {
       </div>
       </div>
       </section>
+     
       <section id="about" class="about-section pt-150">
       <div class="container">
       <div class="row">
       <div class="col-lg-6">
       <div class="about-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/about/about-img.svg" alt="" />
+      <img src="assets/img/about/7-Devils-Tatto-540x473.png" alt="" />
       </div>
       </div>
       <div class="col-lg-6">
@@ -250,11 +222,7 @@ function Content() {
       <div class="rating-meta d-flex align-items-center wow fadeInUp" data-wow-delay=".65s">
       <h5>Rating 4.8</h5>
       <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
+     
       </div>
       </div>
       <div class="counter-up wow fadeInUp" data-wow-delay=".8s">
@@ -276,10 +244,14 @@ function Content() {
       </div>
       </div>
       </section>
-      <section id="gallery" class="gallery-section">
-        <div className='images-container d-flex mt-5'>
+
+      <section id="gallery" class="gallery-section w-80">
+        
+      <h2 class="gallery-heading text-center m-3">Gallery</h2>
+        <div className='images-container d-flex mt-5 m-2' >
+       
             <div className='gallery-image' >
-                <img src="assets/img/gallery/1.jpeg" alt="" width="300px" height="300px" transtition="transform 2s"/>
+                <img src="assets/img/gallery/1.jpeg" alt="" width="300px" height="300px" />
             </div>
             <div className='gallery-image'>
                 <img src="assets/img/gallery/2.webp" alt="" width="300px" height="300px"/>
@@ -288,7 +260,37 @@ function Content() {
                 <img src="assets/img/gallery/4.jpg" alt="" width="300px" height="300px"/>
             </div>
             <div className='gallery-image'>
-                <img src="assets/img/gallery/4.jpeg" alt="" width="300px" height="300px"/>
+                <img src="assets/img/gallery/1 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image' >
+                <img src="assets/img/gallery/2 300x300.jpg" alt="" width="300px" height="300px" />
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/3 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/9 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/4 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image' >
+                <img src="assets/img/gallery/6 300x300.jpg" alt="" width="300px" height="300px" />
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/7 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/8 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/9 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/10 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/1 300x300.jpg" alt="" width="300px" height="300px"/>
             </div>
         </div>
       </section>
@@ -333,161 +335,23 @@ function Content() {
       </div>
       </div>
       </section>
+      
+      
       <section id="testimonial" class="testimonial-section img-bg pt-150 pb-40">
-      <div class="container">
-      <div class="row justify-content-center">
-      <div class="col-lg-6">
-      <div class="section-title mb-60 text-center">
-      <span class="wow fadeInUp" data-wow-delay=".2s">Testimonials</span>
-      <h1 class="wow fadeInUp" data-wow-delay=".4s">What Our Users Says</h1>
-      </div>
-      </div>
-      </div>
-      <div class="row testimonial-wrapper">
-      <div class="col-lg-4 col-md-6 -mt-30">
-      <div class="single-testimonial wow fadeInUp" data-wow-delay=".2s">
-      <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      </div>
-      <div class="content">
-      <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
-      </div>
-      <div class="info">
-      <div class="image">
-      <img src="assets/img/testimonial/testimonial-1.png" alt="" />
-      </div>
-      <div class="text">
-      <h5>Ena Shah</h5>
-      <p>Teacher at Abc School</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-6 -mt-60">
-      <div class="single-testimonial wow fadeInUp" data-wow-delay=".4s">
-      <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      </div>
-      <div class="content">
-      <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
-      </div>
-      <div class="info">
-      <div class="image">
-      <img src="assets/img/testimonial/testimonial-2.png" alt="" />
-      </div>
-      <div class="text">
-      <h5>Mrs. Gosh</h5>
-      <p>Actor</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-      <div class="single-testimonial wow fadeInUp" data-wow-delay=".6s">
-      <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      </div>
-      <div class="content">
-      <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
-      </div>
-      <div class="info">
-      <div class="image">
-      <img src="assets/img/testimonial/testimonial-3.png" alt="" />
-      </div>
-      <div class="text">
-      <h5>John Doe</h5>
-      <p>Model</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-6 -mt-30">
-      <div class="single-testimonial wow fadeInUp" data-wow-delay=".2s">
-      <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      </div>
-      <div class="content">
-      <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
-      </div>
-      <div class="info">
-      <div class="image">
-      <img src="assets/img/testimonial/testimonial-4.png" alt="" />
-      </div>
-      <div class="text">
-      <h5>Jonathan Smith</h5>
-      <p>Creative Designer</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-6 -mt-60">
-      <div class="single-testimonial wow fadeInUp" data-wow-delay=".4s">
-      <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      </div>
-      <div class="content">
-      <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
-      </div>
-      <div class="info">
-      <div class="image">
-      <img src="assets/img/testimonial/testimonial-5.png" alt="" />
-      </div>
-      <div class="text">
-      <h5>Sara A. K.</h5>
-      <p>Heroine</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-      <div class="single-testimonial wow fadeInUp" data-wow-delay=".6s">
-      <div class="rating">
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      <i class="lni lni-star-filled"></i>
-      </div>
-      <div class="content">
-      <p>Lorem ipsum dolor sit amet onsetetur sadipscing elitr, sed diam non eirmod tempor invidunt ut labore etdo magna aliquyam erat, sed diam vero eos et accusam et justo duo dolores et ea rebum clita kasd gubergren.</p>
-      </div>
-      <div class="info">
-      <div class="image">
-      <img src="assets/img/testimonial/testimonial-6.png" alt="" />
-      </div>
-      <div class="text">
-      <h5>David Smith</h5>
-      <p>Businessman</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </section>
-      <section id="map" class="map-location">
-
-      </section>
+       
+               
+                    <div class="section-title mb-2  align-items-center text-center">
+                        <span class="wow fadeInUp" data-wow-delay=".2s ">Testimonials</span>
+                        <h1 class="wow fadeInUp" data-wow-delay=".4s ">What Our Users Says</h1>
+                    </div>
+                
+               
+                    <Images/>
+    </section>
+   
+      
+      
+  
       
       <footer id="footer" class="footer pt-100 pb-70 w-100">
       <div class="footer-shape">
@@ -499,46 +363,43 @@ function Content() {
       <div class="col-lg-3 col-md-6">
       <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
       <div class="logo">
-      <a href="#"><img src="assets/img/logo/logo-2.svg" alt="logo" /></a>
+      <a href="#"><img src="assets/img/logo/white.png" alt="logo" /></a>
       </div>
-      <div class="download-btns">
-      <a href="javascript:void(0)">
-      <span class="icon"><i class="lni lni-apple"></i></span>
-      <span class="text">Download on the <b>App Store</b> </span>
-      </a>
-      <a href="javascript:void(0)">
-      <span class="icon"><i class="lni lni-play-store"></i></span>
-      <span class="text">GET IT ON <b>Play Store</b> </span>
-      </a>
-      </div>
+      
       </div>
       </div>
       <div class="col-lg-3 col-md-6">
       <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
-      <h3>About Us</h3>
+      <h3>Contact Us</h3>
       <ul class="links">
       <li>
-      <a href="javascript:void(0)">Home</a>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="white" class="bi bi-geo-alt"  viewBox="0 0 16 16">
+  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+</svg>
+      <a href="javascript:void(0)" class="ml-1">Guntur,Andhra Pradesh</a>
       </li>
       <li>
-      <a href="javascript:void(0)">Services</a>
+      <svg href="javascript:void(0)" xmlns="http://www.w3.org/2000/svg" width="14" height="16" fill="white" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>
+      <a href="javascript:void(0)" class="ml-2">9347179138</a>
       </li>
-      <li>
-      <a href="javascript:void(0)">About Us</a>
+      <li >
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg>
+      <a href="javascript:void(0)" class="ml-2 align-items-center">Instagram</a>
       </li>
-      <li>
-      <a href="javascript:void(0)">Contact</a>
-      </li>
+      
       </ul>
       </div>
       </div>
       <div class="col-lg-3 col-md-6">
       <div class="footer-widget wow fadeInUp" data-wow-delay=".6s">
-      <h3>About</h3>
+      <h3>Quick Links</h3>
       <ul class="links">
-      <li>
-      <a href="javascript:void(0)">Partners</a>
-      </li>
+      
       <li>
       <a href="javascript:void(0)">Terms of Service</a>
       </li>
@@ -553,27 +414,23 @@ function Content() {
       </div>
       <div class="col-lg-3 col-md-6">
       <div class="footer-widget wow fadeInUp" data-wow-delay=".8s">
-      <h3>Support</h3>
+      
       <ul class="links">
-      <li>
-      <a href="javascript:void(0)">Open Ticket</a>
-      </li>
-      <li>
-      <a href="javascript:void(0)">Community</a>
-      </li>
-      <li>
-      <a href="javascript:void(0)">Return Policy</a>
-      </li>
-      <li>
-      <a href="javascript:void(0)">Accessibility</a>
-      </li>
+      <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.219232390493!2d80.41692981477367!3d16.311738688731428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75401629971b%3A0x8310dfbf5cd6f228!2s7%20Devils%20Tattoo%20Studio!5e0!3m2!1sen!2sin!4v1662611244499!5m2!1sen!2sin" width="200" height="200"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     
       </ul>
+      
+     
       </div>
       </div>
+      
       </div>
+      
       </div>
       </footer>
-      <a href="#" class="scroll-top btn-hover">
+      <a href="#home" class="scroll-top btn-hover">
       <i class="lni lni-chevron-up"></i>
       </a>
     </div>
