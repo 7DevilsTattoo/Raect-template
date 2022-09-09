@@ -78,7 +78,7 @@ const  Content=() =>{
       <a class="page-scroll" href="#testimonial">Testimonials</a>
       </li>
       <li class="nav-item">
-      <a class="page-scroll" href="#testimonial">ContactUs</a>
+      <a class="page-scroll" href="#footer">ContactUs</a>
       </li>
       
       </ul>
@@ -109,14 +109,14 @@ const  Content=() =>{
       <div class="hero-content">
       <h1 class="wow fadeInUp" data-wow-delay=".2s">7 Devils <span>Tattoo Studio</span> </h1>
       <p class="wow fadeInUp" data-wow-delay=".4s">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+      From the first step inside, you’ll feel at home. We’re like family here, and you’re always welcome. 7 Devils Tatto Studio is a crew of artists that pride ourselves on our passion for fine art and creativity.
       </p>
-      <a href="javascript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">Download App</a>
+      <a href="javascript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">Book an Appointment</a>
       </div>
       </div>
       <div class="col-lg-6">
       <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/hero/hero-img.svg" alt="" />
+      <img src="assets/img/hero/Devils-Home-image.png" alt="" />
       </div>
       </div>
       </div>
@@ -137,7 +137,7 @@ const  Content=() =>{
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".2s">
       <div class="icon">
-      <img src="assets/img/service/4.png" alt="" />
+      <img src="assets/img/service/1.png" alt="" />
       </div>
       <div class="content">
       <h3>Tattooing</h3>
@@ -159,7 +159,7 @@ const  Content=() =>{
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".6s">
       <div class="icon">
-      <img src="assets/img/service/3.png" alt="" />
+      <img src="assets/img/service/4.png" alt="" />
       </div>
       <div class="content">
       <h3>Tattoo Design</h3>
@@ -170,7 +170,7 @@ const  Content=() =>{
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".2s">
       <div class="icon">
-      <img src="assets/img/service/1.png" alt="" />
+      <img src="assets/img/service/5.png" alt="" />
       </div>
       <div class="content">
       <h3>Laser Removal</h3>
@@ -192,7 +192,7 @@ const  Content=() =>{
       <div class="col-lg-4 col-md-6">
       <div class="single-service wow fadeInUp" data-wow-delay=".6s">
       <div class="icon">
-      <img src="assets/img/service/5.png" alt="" />
+      <img src="assets/img/service/3.png" alt="" />
       </div>
       <div class="content">
       <h3>Piercing</h3>
@@ -220,22 +220,21 @@ const  Content=() =>{
       <p class="wow fadeInUp" data-wow-delay=".6s">To get your body inked in our tattoo salon, you may contact us via contact form on our website, or by phone. We welcome appointments, as well as walk-ins. We have gathered the best team of tattoo artists who work full time in our salon, and we have fantastic guest artists visiting our shop..</p>
       </div>
       <div class="rating-meta d-flex align-items-center wow fadeInUp" data-wow-delay=".65s">
-      <h5>Rating 4.8</h5>
       <div class="rating">
-     
+     <h5>Rating 5.0</h5>
       </div>
       </div>
       <div class="counter-up wow fadeInUp" data-wow-delay=".8s">
       <div class="single-counter">
-      <h3 id="secondo1" class="countup" >1M</h3>
-      <h5>Download</h5>
+      <h3 id="secondo1" class="countup" >5.0</h3>
+      <h5>Rating</h5>
       </div>
       <div class="single-counter position-relative">
       <h3 id="secondo2" class="countup">234k </h3>
       <h5>Happy User</h5>
       </div>
       <div class="single-counter">
-      <h3 id="secondo3" class="countup" >34k </h3>
+      <h3 id="secondo3" class="countup" >244.. </h3>
       <h5>Reviews</h5>
       </div>
       </div>
@@ -247,7 +246,7 @@ const  Content=() =>{
 
       <section id="gallery" class="gallery-section w-80">
         
-      <h2 class="gallery-heading text-center m-3">Gallery</h2>
+      <h2 class="gallery-heading text-center m-5">Gallery</h2>
         <div className='images-container d-flex mt-5 m-2' >
        
             <div className='gallery-image' >
@@ -283,14 +282,15 @@ const  Content=() =>{
             <div className='gallery-image'>
                 <img src="assets/img/gallery/8 300x300.jpg" alt="" width="300px" height="300px"/>
             </div>
-            <div className='gallery-image'>
-                <img src="assets/img/gallery/9 300x300.jpg" alt="" width="300px" height="300px"/>
-            </div>
+            
             <div className='gallery-image'>
                 <img src="assets/img/gallery/10 300x300.jpg" alt="" width="300px" height="300px"/>
             </div>
             <div className='gallery-image'>
                 <img src="assets/img/gallery/1 300x300.jpg" alt="" width="300px" height="300px"/>
+            </div>
+            <div className='gallery-image'>
+                <img src="assets/img/gallery/12.jpg" alt="" width="300px" height="300px"/>
             </div>
         </div>
       </section>
@@ -300,16 +300,16 @@ const  Content=() =>{
       <div class="col-lg-5">
       <div class="delivery-content">
       <div class="section-title">
-      <span class="wow fadeInUp" data-wow-delay=".2s">Fast Delivery</span>
-      <h1 class="mb-35 wow fadeInUp" data-wow-delay=".4s">Order Now, Recieve Within 30mins</h1>
-      <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore hdht dolore magna aliquyam erat, sed diam voluptua.</p>
-      <a href="javscript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".8s">Download App</a>
+      <span class="wow fadeInUp" data-wow-delay=".2s">Special Offer</span>
+      <h1 class="mb-35 wow fadeInUp" data-wow-delay=".4s">Get 20% Discount on Tatto Piercing</h1>
+      <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">Piercings and tattoos are body decorations that go back to ancient times. Body piercing involves making a hole in the skin so that you can insert jewelry. </p>
+      <a href="javscript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".8s">Grab now</a>
       </div>
       </div>
       </div>
       <div class="col-lg-7 order-first order-lg-last">
       <div class="delivery-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/delivery/delivery-img.svg" alt="" />
+      <img src="assets/img/delivery/Desgins.png" alt="" />
       </div>
       </div>
       </div>
@@ -320,15 +320,16 @@ const  Content=() =>{
       <div class="row align-items-center">
       <div class="col-lg-6">
       <div class="about-img received-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/received/received-img.svg" alt="" />
+      <img src="assets/img/received/Seven-Devils-Aftercare.png" alt="" />
       </div>
       </div>
       <div class="col-lg-6">
       <div class="about-content received-content">
       <div class="section-title">
-      <span class="wow fadeInUp" data-wow-delay=".2s">Contactless Delivery</span>
-      <h1 class="mb-25 wow fadeInUp" data-wow-delay=".4s">On-time Delivery to Your Doorstep</h1>
-      <p class="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+      <span class="wow fadeInUp" data-wow-delay=".2s">Aftercare</span>
+      <h1 class="mb-25 wow fadeInUp" data-wow-delay=".4s">The Best Way To Heal A New Tattoo Quickly</h1>
+      <p class="wow fadeInUp" data-wow-delay=".6s">DO wear loose, clean cotton/soft clothing and/or expose to air (but not sun!).<br/>DO NOT use aloe, Neosporin, etc.; they make the skin heal too fast.
+      <br/>DO NOT swim, sauna, or soak (quick shower ok, avoid long soaking on the tattoo)<br/>DO NOT expose to direct sunlight.</p>
       </div>
       </div>
       </div>
@@ -372,12 +373,13 @@ const  Content=() =>{
       <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
       <h3>Contact Us</h3>
       <ul class="links">
-      <li>
+      <li >
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="white" class="bi bi-geo-alt"  viewBox="0 0 16 16">
   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
   <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
 </svg>
-      <a href="javascript:void(0)" class="ml-1">Guntur,Andhra Pradesh</a>
+      <a href="javascript:void(0)" class="ml-1"> Kundula Rd,Krishna Nagar</a>
+      <a href="javascript:void(0)" class="ml-3"> Guntur,Andhra Pradesh</a>
       </li>
       <li>
       <svg href="javascript:void(0)" xmlns="http://www.w3.org/2000/svg" width="14" height="16" fill="white" class="bi bi-telephone" viewBox="0 0 16 16">
@@ -401,13 +403,17 @@ const  Content=() =>{
       <ul class="links">
       
       <li>
-      <a href="javascript:void(0)">Terms of Service</a>
+      <a href="javascript:void(0)">About Us</a>
       </li>
       <li>
-      <a href="javascript:void(0)">Privacy Policy</a>
+      <a href="javascript:void(0)">Services</a>
+      </li>
+      
+      <li>
+      <a href="javascript:void(0)">Gallery</a>
       </li>
       <li>
-      <a href="javascript:void(0)">Refund Policy</a>
+      <a href="javascript:void(0)">Testimonials</a>
       </li>
       </ul>
       </div>
