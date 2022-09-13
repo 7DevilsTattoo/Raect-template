@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./index.css"
 import Slider from './Slider.js'
 import Images from '../Components/Images.js';
-
+import Rating from '../Stars/Rating';
 
 
 
@@ -111,7 +111,7 @@ const  Content=() =>{
       <p class="wow fadeInUp" data-wow-delay=".4s">
       From the first step inside, you’ll feel at home. We’re like family here, and you’re always welcome. 7 Devils Tatto Studio is a crew of artists that pride ourselves on our passion for fine art and creativity.
       </p>
-      <a href="javascript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">Book an Appointment</a>
+      
       </div>
       </div>
       <div class="col-lg-6">
@@ -122,6 +122,7 @@ const  Content=() =>{
       </div>
       </div>
       </section>
+      
       <section id="services" class="service-section pt-150">
       <div class="container">
       <div class="row justify-content-center w-100">
@@ -203,15 +204,11 @@ const  Content=() =>{
       </div>
       </div>
       </section>
-     
+
       <section id="about" class="about-section pt-150">
       <div class="container">
       <div class="row">
-      <div class="col-lg-6">
-      <div class="about-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/about/7-Devils-Tatto-540x473.png" alt="" />
-      </div>
-      </div>
+      
       <div class="col-lg-6">
       <div class="about-content">
       <div class="section-title">
@@ -220,14 +217,15 @@ const  Content=() =>{
       <p class="wow fadeInUp" data-wow-delay=".6s">To get your body inked in our tattoo salon, you may contact us via contact form on our website, or by phone. We welcome appointments, as well as walk-ins. We have gathered the best team of tattoo artists who work full time in our salon, and we have fantastic guest artists visiting our shop..</p>
       </div>
       <div class="rating-meta d-flex align-items-center wow fadeInUp" data-wow-delay=".65s">
-      <div class="rating">
-     <h5>Rating 5.0</h5>
+      <div class="rating d-flex">
+     <h5>Rating 5.0 </h5>
+     <Rating/>
       </div>
       </div>
       <div class="counter-up wow fadeInUp" data-wow-delay=".8s">
       <div class="single-counter">
       <h3 id="secondo1" class="countup" >5.0</h3>
-      <h5>Rating</h5>
+      <h5>Rating  </h5>
       </div>
       <div class="single-counter position-relative">
       <h3 id="secondo2" class="countup">234k </h3>
@@ -240,10 +238,19 @@ const  Content=() =>{
       </div>
       </div>
       </div>
+      <div class="col-lg-6 p-3">
+      <div class="about-img wow fadeInUp" data-wow-delay=".5s">
+      <img src="assets/img/about/7-Devils-Tatto-540x473.png" alt="img" />
       </div>
       </div>
+      
+      </div>
+      </div>
+      
       </section>
 
+     
+      
       <section id="gallery" class="gallery-section w-80">
         
       <h2 class="gallery-heading text-center m-5">Gallery</h2>
