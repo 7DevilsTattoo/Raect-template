@@ -106,9 +106,9 @@ const  Content=() =>{
       <div class="container">
       <div class="row align-items-center">
       <div class="col-lg-6">
-      <div class="hero-content">
+      <div class="hero-content " >
       <h1 class="wow fadeInUp" data-wow-delay=".2s">7 Devils <span>Tattoo Studio</span> </h1>
-      <p class="wow fadeInUp" data-wow-delay=".4s">
+      <p class="wow fadeInUp" data-wow-delay=".4s" style={{textAlign:"justify"}}>
       From the first step inside, you’ll feel at home. We’re like family here, and you’re always welcome. 7 Devils Tatto Studio is a crew of artists that pride ourselves on our passion for fine art and creativity.
       </p>
       
@@ -123,11 +123,11 @@ const  Content=() =>{
       </div>
       </section>
       
-      <section id="services" class="service-section pt-150">
+      <section id="services" class="service-section pt-70">
       <div class="container">
       <div class="row justify-content-center w-100">
       <div class="col-xl-6 col-lg-8">
-      <div class="section-title text-center mb-70">
+      <div class="section-title text-center mb-10">
       <span class="wow fadeInUp" data-wow-delay=".2s"> Services</span>
       <h1 class="wow fadeInUp" data-wow-delay=".4s">What We Do</h1>
       
@@ -142,7 +142,7 @@ const  Content=() =>{
       </div>
       <div class="content">
       <h3>Tattooing</h3>
-      <p>For a premium result, at our tattoo shop we combine modern technics with traditional ones.</p>
+      <p  style={{textAlign:"justify"}}>For a premium result, at our tattoo shop we combine modern technics with traditional ones.</p>
       </div>
       </div>
       </div>
@@ -153,7 +153,7 @@ const  Content=() =>{
       </div>
       <div class="content">
       <h3>Tattoo Cover Up</h3>
-      <p>Got some old tattoos that you don’t find pretty? Our talented artists will cover them up for you.</p>
+      <p  style={{textAlign:"justify"}}>Got some old tattoos that you don’t find pretty? Our talented artists will cover them up for you.</p>
       </div>
       </div>
       </div>
@@ -164,7 +164,7 @@ const  Content=() =>{
       </div>
       <div class="content">
       <h3>Tattoo Design</h3>
-      <p>Nothing can beat the challenge of creating a design that initially is only in your imagination.</p>
+      <p  style={{textAlign:"justify"}}>Nothing can beat the challenge of creating a design that initially is only in your imagination.</p>
       </div>
       </div>
       </div>
@@ -175,7 +175,7 @@ const  Content=() =>{
       </div>
       <div class="content">
       <h3>Laser Removal</h3>
-      <p>If you are tired of your tattoos, in our salon we provide a service of laser tattoo removal.</p>
+      <p  style={{textAlign:"justify"}}>If you are tired of your tattoos, in our salon we provide a service of laser tattoo removal.</p>
       </div>
       </div>
       </div>
@@ -186,7 +186,7 @@ const  Content=() =>{
       </div>
       <div class="content">
       <h3>Aftercare</h3>
-      <p>It`s very important to know all the key basics to care for your new tattoo.</p>
+      <p  style={{textAlign:"justify"}}>It`s very important to know all the key basics to care for your new tattoo.</p>
       </div>
       </div>
       </div>
@@ -197,7 +197,7 @@ const  Content=() =>{
       </div>
       <div class="content">
       <h3>Piercing</h3>
-      <p>Want some extra holes in your body? Our piercing masters will make some for you.</p>
+      <p  style={{textAlign:"justify"}}>Want some extra holes in your body? Our piercing masters will make some for you.</p>
       </div>
       </div>
       </div>
@@ -205,7 +205,7 @@ const  Content=() =>{
       </div>
       </section>
 
-      <section id="about" class="about-section pt-150">
+      <section id="about" class="about-section">
       <div class="container">
       <div class="row">
       
@@ -214,7 +214,7 @@ const  Content=() =>{
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">About Us</span>
       <h1 class="wow fadeInUp" data-wow-delay=".4s">We are a professional team of tattoists</h1>
-      <p class="wow fadeInUp" data-wow-delay=".6s">To get your body inked in our tattoo salon, you may contact us via contact form on our website, or by phone. We welcome appointments, as well as walk-ins. We have gathered the best team of tattoo artists who work full time in our salon, and we have fantastic guest artists visiting our shop..</p>
+      <p class="wow fadeInUp" data-wow-delay=".6s"  style={{textAlign:"justify"}}>To get your body inked in our tattoo salon, you may contact us via contact form on our website, or by phone. We welcome appointments, as well as walk-ins. We have gathered the best team of tattoo artists who work full time in our salon, and we have fantastic guest artists visiting our shop..</p>
       </div>
       <div class="rating-meta d-flex align-items-center wow fadeInUp" data-wow-delay=".65s">
       <div class="rating d-flex">
@@ -309,7 +309,7 @@ const  Content=() =>{
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">Special Offer</span>
       <h1 class="mb-35 wow fadeInUp" data-wow-delay=".4s">Get 20% Discount on Tatto Piercing</h1>
-      <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">Piercings and tattoos are body decorations that go back to ancient times. Body piercing involves making a hole in the skin so that you can insert jewelry. </p>
+      <p class="mb-35 wow fadeInUp" data-wow-delay=".6s"  style={{textAlign:"justify"}}>Piercings and tattoos are body decorations that go back to ancient times. Body piercing involves making a hole in the skin so that you can insert jewelry. </p>
       <a href="javscript:void(0)" class="main-btn btn-hover wow fadeInUp" data-wow-delay=".8s">Grab now</a>
       </div>
       </div>
@@ -335,7 +335,7 @@ const  Content=() =>{
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">Aftercare</span>
       <h1 class="mb-25 wow fadeInUp" data-wow-delay=".4s">The Best Way To Heal A New Tattoo Quickly</h1>
-      <p class="wow fadeInUp" data-wow-delay=".6s">DO wear loose, clean cotton/soft clothing and/or expose to air (but not sun!).<br/>DO NOT use aloe, Neosporin, etc.; they make the skin heal too fast.
+      <p class="wow fadeInUp" data-wow-delay=".6s"  style={{textAlign:"justify"}}>DO wear loose, clean cotton/soft clothing and/or expose to air (but not sun!).<br/>DO NOT use aloe, Neosporin, etc.; they make the skin heal too fast.
       <br/>DO NOT swim, sauna, or soak (quick shower ok, avoid long soaking on the tattoo)<br/>DO NOT expose to direct sunlight.</p>
       </div>
       </div>
