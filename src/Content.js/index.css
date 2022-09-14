@@ -35,3 +35,35 @@ h1{
 .pic{
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7));
 }
+.gallery-images{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.motion{
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp{
+    position:fixed;
+    background:#25D366;
+    bottom: 70px;
+    right: 10px;
+    padding-top: 10px;
+    
+    margin:17px;
+    border-radius:25px;
+
+}
+.carousel-control-prev{
+    display: none !important;;
+}
+.carousel-control-next{
+    display: none !important;;
+}
+.gaps{
+    width: 600px,!important;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
