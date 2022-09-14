@@ -3,7 +3,7 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import SimpleImageSlider from "react-simple-image-slider";
 import "./index.css"
 import Banner from './Banner.js'
 import Images from '../Components/Images.js';
@@ -17,14 +17,14 @@ import Rating from '../Stars/Rating';
 
 
 const  Content=() =>{
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 6000,
-    autoplaySpeed:6000,
+    speed: 8000,
+    autoplaySpeed:8000,
     margin:"10px",
     cssEase: "linear"
     
@@ -234,7 +234,7 @@ const  Content=() =>{
       </div>
       <div class="single-counter position-relative">
       <h3 id="secondo2" class="countup">2.0k+</h3>
-      <h5>Happy Customers</h5>
+      <h5>HappyCustomer</h5>
       </div>
       <div class="single-counter">
       <h3 id="secondo3" class="countup" >244.. </h3>
@@ -260,45 +260,45 @@ const  Content=() =>{
         
       <h2 class="gallery-heading text-center m-5">Gallery</h2>
         
+      <div>
       <Slider {...settings}>
         <div class="gaps d-flex">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/4 600x600.jpg" }  alt="img" />
-           
+            <img src= "assets/img/gallery/4 600x600.jpg"  alt="img" />
+
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/1 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/1 600x600.jpg"  alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/2 600x600.jpg" }  alt="img" />
+            <img src= "assets/img/gallery/2 600x600.jpg"  alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/3 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/3 600x600.jpg"  alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/4 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/4 600x600.jpg" alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/5 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/5 600x600.jpg"  alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/8 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/8 600x600.jpg" alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/9 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/9 600x600.jpg" alt="img" />
         </div>
         <div class="gaps">
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/6 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/6 600x600.jpg" alt="img" />
         </div>
         <div>
-            <img src={ process.env.PUBLIC_URL + "assets/img/gallery/7 600x600.jpg" } alt="img" />
+            <img src= "assets/img/gallery/7 600x600.jpg" alt="img" />
         </div>
-        
+
 
 
 
     </Slider>
-       
-           
+    </div>
       
       </section>
       <section id="how" class="delivery-section pt-150">
