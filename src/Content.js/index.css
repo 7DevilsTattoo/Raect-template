@@ -46,9 +46,9 @@ h1{
 }
 .whatsapp{
     position:fixed;
-    background:#25D366;
+    background:#128c7e;
     bottom: 70px;
-    right: 10px;
+    right: 8px;
     padding-top: 10px;
     
     margin:17px;
@@ -69,7 +69,20 @@ h1{
     
 }
 .slick-slide{
-    width: 600px !important;
-    margin-right:70px;
-    margin-left: 70px;
+    width: 500px !important;
+    height: 500px;
+    margin-right:60px;
+    margin-left: 60px;
+}
+.reserve{
+    color:white;
+}
+.color{
+    color: #EB4258;
+}
+.color:hover{
+    color:#EB4258;
+}
+.copyright-container{
+    overflow: hidden;
 }

@@ -8,6 +8,7 @@ import "./index.css"
 import Banner from './Banner.js'
 import Images from '../Components/Images.js';
 import Rating from '../Stars/Rating';
+import Pics from '../Gallery/Pics.js';
 
 
 
@@ -18,14 +19,13 @@ import Rating from '../Stars/Rating';
 
 const  Content=() =>{
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     speed: 8000,
     autoplaySpeed:8000,
-    margin:"10px",
     cssEase: "linear"
     
       
@@ -260,46 +260,8 @@ const  Content=() =>{
         
       <h2 class="gallery-heading text-center m-5">Gallery</h2>
         
-      <div>
-      <Slider {...settings}>
-        <div class="gaps d-flex">
-            <img src= "assets/img/gallery/4 600x600.jpg"  alt="img" />
-
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/1 600x600.jpg"  alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/2 600x600.jpg"  alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/3 600x600.jpg"  alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/4 600x600.jpg" alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/5 600x600.jpg"  alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/8 600x600.jpg" alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/9 600x600.jpg" alt="img" />
-        </div>
-        <div class="gaps">
-            <img src= "assets/img/gallery/6 600x600.jpg" alt="img" />
-        </div>
-        <div>
-            <img src= "assets/img/gallery/7 600x600.jpg" alt="img" />
-        </div>
-
-
-
-
-    </Slider>
-    </div>
       
+      <Pics/>
       </section>
       <section id="how" class="delivery-section pt-150">
       <div class="container">
@@ -361,7 +323,7 @@ const  Content=() =>{
       
   
       
-      <footer id="footer" class="footer pt-100 pb-70 w-100">
+      <footer id="footer" class="footer pt-100  w-100">
       <div class="footer-shape">
       <img src="assets/img/footer/footer-left.svg" alt="" class="shape shape-1" />
       <img src="assets/img/footer/footer-right.svg" alt="" class="shape shape-2" />
@@ -410,17 +372,17 @@ const  Content=() =>{
       <ul class="links">
       
       <li>
-      <a href="javascript:void(0)">About Us</a>
+      <a href="#about">About Us</a>
       </li>
       <li>
-      <a href="javascript:void(0)">Services</a>
+      <a href="#services">Services</a>
       </li>
       
       <li>
-      <a href="javascript:void(0)">Gallery</a>
+      <a href="#gallery">Gallery</a>
       </li>
       <li>
-      <a href="javascript:void(0)">Testimonials</a>
+      <a href="#testimonial">Testimonials</a>
       </li>
       </ul>
       </div>
@@ -432,7 +394,7 @@ const  Content=() =>{
       <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.219232390493!2d80.41692981477367!3d16.311738688731428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75401629971b%3A0x8310dfbf5cd6f228!2s7%20Devils%20Tattoo%20Studio!5e0!3m2!1sen!2sin!4v1662611244499!5m2!1sen!2sin" width="200" height="200"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-     
+      
       </ul>
       
      
@@ -442,17 +404,22 @@ const  Content=() =>{
       </div>
       
       </div>
-      
         <a href='https://wa.me/+919347179138'  class="whatsapp" target="_blank"> <img src="assets/img/hero/whatsapp-img.png" width="60px" height="50px" alt="whatsapp"/></a>
-      
+        
+        <div class="copyright-container text-center">
+      <p style={{color:"white"}}>Copyright © 2022 Desgined by <a class="color" > DT7Solutions</a>  Reserved</p>
+      </div>
+          
+        
+       
       </footer>
       
       <a href="#home" class="scroll-top btn-hover">
       <i class="lni lni-chevron-up"></i>
       </a>
       
-    
     </div>
+    
   );
 }
 export default Content;
