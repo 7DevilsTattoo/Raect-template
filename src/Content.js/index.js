@@ -287,12 +287,7 @@ const  Content=() =>{
       <section id="received" class="about-section received-section pt-150">
       <div class="container">
       <div class="row align-items-center">
-      <div class="col-lg-6">
-      <div class="about-img received-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/received/Seven-Devils-Aftercare.png" alt="" />
-      </div>
-      </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 ">
       <div class="about-content received-content">
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">Aftercare</span>
@@ -302,6 +297,12 @@ const  Content=() =>{
       </div>
       </div>
       </div>
+      <div class="col-lg-6">
+      <div class="about-img received-img wow fadeInUp" data-wow-delay=".5s">
+      <img src="assets/img/received/Seven-Devils-Aftercare.png" alt="" />
+      </div>
+      </div>
+      
       </div>
       </div>
       </section>
