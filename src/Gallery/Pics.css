@@ -1,3 +1,20 @@
 .carousel-indicators{
     display:none;
 }
+#gallery .carousel-item{
+    padding-left:23%;
+}
+@media (min-width:992px) and (max-width:1250px){
+    #gallery .carousel-item{
+        padding-left:26%;
+        position:sticky;
+    }
+    
+}
+@media (min-width:1250px) and (max-width:1700px){
+    #gallery .carousel-item{
+        padding-left:30%;
+        position:sticky;
+    }
+    
+}

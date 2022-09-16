@@ -10,7 +10,7 @@ const Pics =()=>{
 return(
 <Carousel className='mb-5 opacity' >
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}} src="assets/img/gallery/1 600x600.jpg"  alt="First slide" />
+        <img className="d-block "   src="assets/img/gallery/1 600x600.jpg"    alt="First slide" />
         
        {/*<Carousel.Caption >
             <h3 className='title m-5'></h3>
@@ -18,7 +18,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item >
-        <img className="d-block "  style={{paddingLeft:"23%"}} src="assets/img/gallery/2 600x600.jpg" alt="Second slide" />
+        <img className="d-block "  src="assets/img/gallery/2 600x600.jpg"   alt="Second slide" />
         
 
        {/* <Carousel.Caption>
@@ -27,7 +27,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}}  src="assets/img/gallery/3 600x600.jpg" alt="Third slide" />
+        <img className="d-block"   src="assets/img/gallery/3 600x600.jpg"   alt="Third slide" />
        
         
 
@@ -39,7 +39,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}}  src="assets/img/gallery/4 600x600.jpg" alt="Third slide" />
+        <img className="d-block"    src="assets/img/gallery/4 600x600.jpg" alt="Third slide" />
        
         
 
@@ -51,7 +51,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}}  src="assets/img/gallery/5 600x600.jpg" alt="Third slide" />
+        <img className="d-block"   src="assets/img/gallery/5 600x600.jpg"   alt="Third slide" />
        
         
 
@@ -63,7 +63,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}}  src="assets/img/gallery/6 600x600.jpg" alt="Third slide" />
+        <img className="d-block"    src="assets/img/gallery/6 600x600.jpg"   alt="Third slide" />
        
         
 
@@ -75,7 +75,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}}  src="assets/img/gallery/7 600x600.jpg" alt="Third slide" />
+        <img className="d-block"    src="assets/img/gallery/7 600x600.jpg"   alt="Third slide" />
        
         
 
@@ -87,7 +87,7 @@ return(
 </Carousel.Caption>*/}
     </Carousel.Item>
     <Carousel.Item  >
-        <img className="d-block"  style={{paddingLeft:"23%"}}  src="assets/img/gallery/8 600x600.jpg" alt="Third slide" />
+        <img className="d-block"    src="assets/img/gallery/8 600x600.jpg"    alt="Third slide" />
        
         
 
