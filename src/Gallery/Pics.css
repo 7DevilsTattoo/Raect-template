@@ -11,9 +11,16 @@
     }
     
 }
-@media (min-width:1250px) and (max-width:1700px){
+@media (min-width:1250px) and (max-width:1500px){
     #gallery .carousel-item{
         padding-left:30%;
+        position:sticky;
+    }
+    
+}
+@media (min-width:1500px) and (max-width:2000px){
+    #gallery .carousel-item{
+        padding-left:35%;
         position:sticky;
     }
     
