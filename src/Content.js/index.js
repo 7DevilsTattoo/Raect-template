@@ -110,7 +110,12 @@ const  Content=() =>{
       </div>
       <div class="container">
       <div class="row align-items-center">
-      <div class="col-lg-6">
+      <div class="col-lg-6 ">
+      <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
+      <img src="assets/img/hero/Devils-Home-image.png" alt="" />
+      </div>
+      </div>
+      <div class="col-lg-6 order-first order-lg-last">
       <div class="hero-content " >
       <h1 class="wow fadeInUp" data-wow-delay=".2s">7 Devils <span>Tattoo Studio</span> </h1>
       <p class="wow fadeInUp" data-wow-delay=".4s" style={{textAlign:"justify"}}>
@@ -119,11 +124,7 @@ const  Content=() =>{
       
       </div>
       </div>
-      <div class="col-lg-6">
-      <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-      <img src="assets/img/hero/Devils-Home-image.png" alt="" />
-      </div>
-      </div>
+      
       </div>
       </div>
       </section>
@@ -266,7 +267,7 @@ const  Content=() =>{
       <section id="how" class="delivery-section pt-150">
       <div class="container">
       <div class="row align-items-center">
-      <div class="col-lg-5">
+      <div class="col-lg-5 order-first order-lg-last">
       <div class="delivery-content">
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">Special Offer</span>
@@ -276,7 +277,7 @@ const  Content=() =>{
       </div>
       </div>
       </div>
-      <div class="col-lg-7 order-first order-lg-last">
+      <div class="col-lg-7 ">
       <div class="delivery-img wow fadeInUp" data-wow-delay=".5s">
       <img src="assets/img/delivery/Desgins.png" alt="" />
       </div>
@@ -287,7 +288,8 @@ const  Content=() =>{
       <section id="received" class="about-section received-section pt-150">
       <div class="container">
       <div class="row align-items-center">
-      <div class="col-lg-6 ">
+      
+      <div class="col-lg-6  ">
       <div class="about-content received-content">
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">Aftercare</span>
