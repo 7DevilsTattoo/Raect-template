@@ -234,7 +234,7 @@ const  Content=() =>{
       </div>
       <div class="single-counter position-relative">
       <h3 id="secondo2" class="countup">2.0k+</h3>
-      <h5>HappyCustomer</h5>
+      <h5>HappyUsers</h5>
       </div>
       <div class="single-counter">
       <h3 id="secondo3" class="countup" >244.. </h3>
