@@ -219,7 +219,7 @@ const  Content=() =>{
       <div class="section-title">
       <span class="wow fadeInUp" data-wow-delay=".2s">About Us</span>
       <h1 class="wow fadeInUp" data-wow-delay=".4s">We are a professional team of tattoists</h1>
-      <p class="wow fadeInUp" data-wow-delay=".6s"  style={{textAlign:"justify"}}>To get your body inked in our tattoo salon, you may contact us via contact form on our website, or by phone. We welcome appointments, as well as walk-ins. We have gathered the best team of tattoo artists who work full time in our salon, and we have fantastic guest artists visiting our shop..</p>
+      <p class="wow fadeInUp" data-wow-delay=".6s"  style={{textAlign:"justify"}}>To get your body inked in our tattoo studio, you may contact us via contact form on our website, or by phone. We welcome appointments, as well as walk-ins. We have gathered the best team of tattoo artists who work full time in our studio, and we have fantastic guest artists visiting our shop..</p>
       </div>
       <div class="rating-meta d-flex align-items-center wow fadeInUp" data-wow-delay=".65s">
       <div class="rating d-flex">
