@@ -410,7 +410,7 @@ const  Content=() =>{
         <a href='https://wa.me/+919347179138'  class="whatsapp" target="_blank"> <img src="assets/img/hero/whatsapp-img.png" width="60px" height="50px" alt="whatsapp"/></a>
         
         <div class="copyright-container text-center">
-      <p style={{color:"white"}}>Copyright © 2022 Desgined by <a class="color" > DT7Solutions</a>  Reserved</p>
+      <p style={{color:"white"}}>Copyright © 2022 Desgined by <a class="color" > DT7Solutions</a>  </p>
       </div>
           
         
