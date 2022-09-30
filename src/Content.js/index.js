@@ -119,7 +119,7 @@ const  Content=() =>{
       <div class="hero-content " >
       <h1 class="wow fadeInUp" data-wow-delay=".2s">7 Devils <span>Tattoo Studio</span> </h1>
       <p class="wow fadeInUp" data-wow-delay=".4s" style={{textAlign:"justify"}}>
-      From the first step inside, you’ll feel at home. We’re like family here, and you’re always welcome. 7 Devils Tatto Studio is a crew of artists that pride ourselves on our passion for fine art and creativity.
+      From the first step inside, you’ll feel  home. We’re like family here, and you’re always welcome. 7 Devils Tatto Studio is a crew of artists that pride ourselves on our passion for fine art and creativity.
       </p>
       
       </div>
