@@ -1,4 +1,4 @@
-import React from "react";
+{/*import React from "react";
 
 import "./images.css";
 const Images=()=>{
@@ -9,4 +9,4 @@ const Images=()=>{
 </div>
     )
 }
-export default Images;
+export default Images;*/}
