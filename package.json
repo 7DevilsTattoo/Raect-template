@@ -2,7 +2,7 @@
   "name": "reacttemplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://7devilstattoo.github.io/Raect-template/",
+  "homepage": "http://7devilstattoo.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
