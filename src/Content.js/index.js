@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import SimpleImageSlider from "react-simple-image-slider";
 import "./index.css"
 import Banner from './Banner.js'
-import Images from '../Components/Images.js';
 import Rating from '../Stars/Rating';
 import Pics from '../Gallery/Pics.js';
 
@@ -319,7 +318,7 @@ const  Content=() =>{
                     </div>
                 
                
-                    <Images/>
+                    
     </section>
    
       
