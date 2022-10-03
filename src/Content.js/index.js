@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Images from "../Components/Images.js";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -317,7 +317,7 @@ const  Content=() =>{
                         <h1 class="wow fadeInUp" data-wow-delay=".4s ">What Our Users Says</h1>
                     </div>
                 
-               
+               <Images/>
                     
     </section>
    
