@@ -78,7 +78,7 @@ const  Content=() =>{
       <a class="page-scroll" href="#gallery">Gallery</a>
       </li>
       <li class="nav-item">
-      <a class="page-scroll" href="#testimonial">Testimonials</a>
+      <a class="page-scroll" href="#testimonials">Testimonials</a>
       </li>
       <li class="nav-item">
       <a class="page-scroll" href="#footer">ContactUs</a>
@@ -308,7 +308,7 @@ const  Content=() =>{
       </section>
       
       
-      <section id="testimonial" class="testimonial-section img-bg pt-150 pb-40">
+      <section id="testimonials" class="testimonial-section img-bg pt-150 pb-40">
        
                
                     <div class="section-title mb-2  align-items-center text-center">
@@ -316,7 +316,7 @@ const  Content=() =>{
                         <h1 class="wow fadeInUp" data-wow-delay=".4s ">What Our Users Says</h1>
                     </div>
                 
-                    <div class='sk-ww-google-reviews' data-embed-id='95053'></div>
+                    <div class='sk-ww-google-reviews' data-embed-id='96373'></div>
                     
     </section>
    
@@ -383,7 +383,7 @@ const  Content=() =>{
       <a href="#gallery">Gallery</a>
       </li>
       <li>
-      <a href="#testimonial">Testimonials</a>
+      <a href="#testimonials">Testimonials</a>
       </li>
       </ul>
       </div>
