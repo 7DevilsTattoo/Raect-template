@@ -13,11 +13,9 @@ import Pics from '../Gallery/Pics.js';
 
 
 
-
-
 const  Content=() =>{
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -316,7 +314,32 @@ const  Content=() =>{
                         <h1 class="wow fadeInUp" data-wow-delay=".4s ">What Our Users Says</h1>
                     </div>
                 
-                    <div class='sk-ww-google-reviews' data-embed-id='96373'></div>
+                    <div  >
+         <Slider {...settings} >
+          <div class="shadow p-3 mb-5 bg-white rounded">
+         <img src="assets/img/hero/google-reviews-6.png"  alt="google reviews"  />
+         </div>
+          <div class="shadow p-3 mb-5 bg-white rounded">
+          <img src="assets/img/hero/google-reviews-2.png"  alt="google reviews"  />
+           </div>
+          <div class="shadow p-3 mb-5 bg-white rounded">
+          <img src="assets/img/hero/google-reviews-3.png"  alt="google reviews"  />
+          </div>
+             <div class="shadow p-3 mb-5 bg-white rounded">
+       <img src="assets/img/hero/google-reviews-4.png"  alt="google reviews"  />
+          </div>
+          <div class="shadow p-3 mb-5 bg-white rounded">
+           <img src="assets/img/hero/google-reviews-5.png"  alt="google reviews" />
+          </div>
+           <div class="shadow p-3 mb-5 bg-white rounded">
+          <img src="assets/img/hero/google-reviews-1.png"  alt="google reviews" />
+           </div>
+            
+         </Slider>
+    
+         </div> 
+         
+         
                     
     </section>
    
