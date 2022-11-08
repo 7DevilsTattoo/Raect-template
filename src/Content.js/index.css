@@ -86,4 +86,6 @@ h1{
 .copyright-container{
     overflow: hidden;
 }
-
+.navbar{
+    margin-bottom: -15px;
+}

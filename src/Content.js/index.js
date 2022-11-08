@@ -7,7 +7,7 @@ import "./index.css"
 import Banner from './Banner.js'
 import Rating from '../Stars/Rating';
 import Pics from '../Gallery/Pics.js';
-
+import Images from "../Components/Images.js";
 
 
 
@@ -15,14 +15,13 @@ import Pics from '../Gallery/Pics.js';
 
 const  Content=() =>{
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: true,
-    speed: 8000,
-    autoplaySpeed:8000,
-    cssEase: "linear"
+    speed: 5000,
+    autoplaySpeed:5000
     
       
   };
@@ -314,7 +313,7 @@ const  Content=() =>{
                         <h1 class="wow fadeInUp" data-wow-delay=".4s ">What Our Users Says</h1>
                     </div>
                 
-                    <div  >
+                    {/* <div  >
          <Slider {...settings} >
           <div class="shadow p-3 mb-5 bg-white rounded">
          <img src="assets/img/hero/google-reviews-6.png"  alt="google reviews"  />
@@ -337,9 +336,9 @@ const  Content=() =>{
             
          </Slider>
     
-         </div> 
+         </div>  */}
          
-         
+         <Images/>
                     
     </section>
    
